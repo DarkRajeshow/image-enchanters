@@ -12,6 +12,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "ImageAlchemy.ai - Transforming Images with AI Magic",
   description: "Unlock the power of AI to enhance and refine your images with ImageAlchemy.ai. Remove backgrounds, restore quality, and reimagine your photos effortlessly. Experience the magic of image transformation today!",
+  manifest:"/manifest.json"
 };
 
 export default function RootLayout({

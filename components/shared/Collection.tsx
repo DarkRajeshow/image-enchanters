@@ -87,7 +87,7 @@ export const Collection = ({
         {hasSearch && <Search />}
       </div>
 
-      <div className="transformation-buttons flex gap-1 pb-5">
+      <div className="transformation-buttons flex gap-1 pb-5 flex-wrap">
         <Button
           className={`bg-gray-100 rounded-full text-black ${selectedTypes.length === 0 || selectedTypes.length === 5 ? "bg-blue-300 hover:bg-red-200" : "hover:bg-blue-200"}`}
           onClick={() => setSelectedTypes([])}

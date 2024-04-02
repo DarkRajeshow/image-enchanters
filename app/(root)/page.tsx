@@ -16,12 +16,12 @@ const Home = async ({ searchParams }: SearchParamProps) => {
         <h1 className="home-heading">
           Unleash Your Creative Vision with Image Alchemy
         </h1>
-        <ul className="flex-center w-full gap-16 py-8">
-          {navLinks.slice(1, 5).map((link) => (
+        <ul className="flex-center flex-wrap w-full gap-6 py-8">
+          {navLinks.slice(1, 6).map((link) => (
             <Link
               key={link.route}
               href={link.route}
-              className="flex-center flex-col gap-2 hover:bg-gray-50/10 p-4 transition-all rounded-md"
+              className="flex-center flex-col gap-2 hover:bg-gray-50/10 p-3 transition-all rounded-md"
             >
               <li className="flex-center w-fit rounded-full bg-white p-4">
                 <Image src={link.icon} alt="image" width={24} height={24} />
