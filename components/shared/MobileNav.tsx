@@ -17,7 +17,7 @@ function MobileNav() {
     const pathname = usePathname();
 
     return (
-        <header className="header">
+        <header className="header z-50">
             <Link href={'/'} className="flex items-center gap-2 md:py-2">
                 <Image
                     src={'/assets/images/logo-text.png'}
