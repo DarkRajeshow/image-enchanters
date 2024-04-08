@@ -18,8 +18,11 @@ const Credits = async () => {
     <>
       <Header
         title="Buy Credits"
-        subtitle="Choose a credit package that suits your needs!"
       />
+
+      <p className="py-3">
+        Availiable Creates: <span className="font-semibold text-green-800">{user.creditBalance}</span>
+      </p>
 
       <section>
         <ul className="credits-list">
